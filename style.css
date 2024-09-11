@@ -20,6 +20,8 @@ body{
     display: flex; /*comportamento*/
     flex-direction: column; /*organizamento dos objetos*/
     padding-inline: 80px;
+    background: linear-gradient(rgb(170, 132, 251), rgb(144, 110, 238), rgb(134, 20, 247));
+    background-size: cover;
 }
 
 header{
@@ -31,7 +33,8 @@ header{
 .logo{
     height: 96px;
     width: 96px;
-    background-color: lightgrey;
+    background-image: url(./202404082156_icAq_i.avif);
+    background-size: cover;
 }
 
 .menu ul{
@@ -55,7 +58,7 @@ main{
 }
 .conteudo p{
     width: 80%;
-    font-size: 40px;
+    font-size: 20px;
 }
 .acao button{
     height: 80px;
@@ -72,8 +75,19 @@ main{
 .social div{
     height: 96px;
     width: 96px;
-    background-color: lightgrey;
     border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url(./whatsapp-logo-icon-free-png.webp);
+}
+.img2{
+    background-image: url(./facebook-circle-logo-png.png);
+}
+.img3{
+    background-image: url(./images.jpeg);
 }
 
 .destaque{
