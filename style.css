@@ -31,7 +31,7 @@ header{
 .logo{
     height: 96px;
     width: 96px;
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 
 .menu ul{
@@ -43,6 +43,15 @@ header{
 main{
     flex-grow: 1;
     background-color: pink;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    background-color: plum;
+}
+.destaque{
+    width: 50%;
+    background-color: lightgrey;
 }
 
 footer{
