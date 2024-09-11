@@ -14,3 +14,24 @@ ul, ol, li{
     list-style: none;
 }
 /*fim reset*/
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 200px;
+    background-color: aqua;
+}
+
+main{
+    flex-grow: 1;
+    background-color: pink;
+}
+
+footer{
+    height: 100px;
+    background-color: aquamarine;
+}
