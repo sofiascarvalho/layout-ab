@@ -78,7 +78,8 @@ main{
 
 .destaque{
     width: 50%;
-    background-color: lightgrey;
+    background-image: url('202404082156_icAq_i.avif');
+    background-repeat: no-repeat;
 }
 
 footer{
